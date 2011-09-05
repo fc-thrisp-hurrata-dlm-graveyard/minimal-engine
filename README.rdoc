@@ -1,0 +1,23 @@
+= Minimal
+
+This project rocks and uses MIT-LICENSE.
+
+The most minimal rails engine. Useful if, like me you are just figuring out how to make a rails engine, but otherwise useless as anything but
+'Hello World'
+
+Some basic guidelines
+  run rails plugin NAME --full
+  edit gemspec
+  add a route (see config/routes.rb)
+  add a controller
+
+  in your rails application add
+     gem NAME, :path=>PATH_TO_NAME
+
+  Your rails application now inherits everything from the gem 
+
+  This is NOT how to do a Mountable engine, which is different and requires more specific namespacing
+
+
+
+
