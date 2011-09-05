@@ -2,10 +2,12 @@
 
 This project rocks and uses MIT-LICENSE.
 
-The most minimal rails engine. Useful if, like me you are just figuring out how to make a rails engine, but otherwise useless as anything but
-'Hello World'
+The most minimal rails engine tutorial. 
 
-Some basic guidelines
+Useful if, like me you are just figuring out how to make a rails engine, a 'Hello World' for rails engines
+
+Branch basic
+------------
   run rails plugin NAME --full
   edit gemspec
   add a route (see config/routes.rb)
@@ -19,5 +21,18 @@ Some basic guidelines
   This is NOT how to do a Mountable engine, which is different and requires more specific namespacing
 
 
+Branch with_model
+-----------------
 
+   adds a model and a way to migrate that into the application
+
+   'rails g minimal' 
+
+
+Branch mountable
+----------------
+
+   simply creating a mountable engine
+
+   tbd 
 
