@@ -1,1 +1,7 @@
 Minimal gem is installed!
+- @hellos.each do |hi|
+  = hi.name
+
+= simple_form_for @hello, :url=> minimal_newhello_path do |f|
+    = f.input :name
+    = f.button :submit
